@@ -1,14 +1,14 @@
 # Contributing
 
-Contributions, issues and feature requests are very welcome. If you are using this package and fixed a bug for yourself, please consider submitting a PR! Also you can ping me at [Twitter](https://twitter.com/pedronauck)
+Contributions, issues and feature requests are very welcome. If you are using this package and fixed a bug for yourself, please consider submitting a PR! Also, you can ping me on [Twitter](https://twitter.com/pedronauck).
 
 ## Guidelines
 
-If you are planning to submit a pull request, it's very important follow these basic rules:
+If you are planning to submit a pull request, it's very important to follow these basic rules:
 
 ### Commit messages
 
-Commit messages should follow the [commit message convention](https://conventionalcommits.org/) so that changelogs can be automatically generated. Commit messages will be automatically validated upon commit. If you are not familiar with the commit message convention, you can use `yarn commit` instead of `git commit`, which provides an interactive CLI for generating proper commit messages.
+Commit messages should follow the [commit message convention](https://conventionalcommits.org/) so, changelogs could be generated automatically by that. Commit messages are validated automatically upon commit. If you aren't familiar with the commit message convention, you can use yarn commit (or `npm run commit`) instead of git commit, which provides an interactive CLI for generating proper commit messages.
 
 ### General guidelines
 
