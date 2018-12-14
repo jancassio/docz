@@ -10,11 +10,11 @@ If you are planning to submit a pull request, it's very important to follow thes
 
 Fork the project on Github.
 
-<img src="https://www.dropbox.com/s/jgh20dxksyjawgv/fork-project.png?dl=1" alt="Fork the project" width="840">
+![](https://www.dropbox.com/s/jgh20dxksyjawgv/fork-project.png?raw=1)
 
 Clone the project from the fork you have created previously at first step.
 
-<img src="https://www.dropbox.com/s/itejvthlhqtgmd0/clone-project.png?dl=1" alt="Fork the project" width="840">
+![](https://www.dropbox.com/s/nzmz154oav7imn5/clone-project.png?raw=1)
 
 Then, check out the project:
 
