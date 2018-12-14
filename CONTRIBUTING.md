@@ -6,21 +6,19 @@ Contributions, issues and feature requests are very welcome. If you are using th
 
 If you are planning to submit a pull request, it's very important to follow these basic rules:
 
-### Commit messages
+### Getting started
 
-Commit messages should follow the [commit message convention](https://conventionalcommits.org/) so, changelogs could be generated automatically by that. Commit messages are validated automatically upon commit. If you aren't familiar with the commit message convention, you can use yarn commit (or `npm run commit`) instead of git commit, which provides an interactive CLI for generating proper commit messages.
+Fork the project on Github.
 
-### General guidelines
+<img src="https://www.dropbox.com/s/jgh20dxksyjawgv/fork-project.png?dl=1" alt="Fork the project" width="840">
 
-- The master branch is basically just a snapshot of the latest stable release. All development should be done in dedicated branch. **Do not submit PRs against the master branch.**
-- Checkout a topic branch from the relevant branch, e.g. `dev`, and merge back against that branch.
-- Work in the **src** folder of respective package and **DO NOT** checkin dist in the commits.
-- It's OK - and a very nice thing - to have multiple small commits as you work on the PR - we will let GitHub automatically squash it before merging.
+Clone the project from the fork you have created previously at first step.
 
-### If adding a new feature:
+<img src="https://www.dropbox.com/s/itejvthlhqtgmd0/clone-project.png?dl=1" alt="Fork the project" width="840">
 
-- Make sure that [all examples](https://github.com/pedronauck/docz/tree/master/examples) are running as expected
-- Provide convincing reason to add this feature. Ideally you should open a suggestion issue first and have it greenlighted before working on it.
+Then, check out the project:
+
+`$ git clone https://github.com/`**your-github-user**`/docz.git`
 
 ## Setup
 
