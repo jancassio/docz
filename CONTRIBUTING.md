@@ -64,9 +64,12 @@ $ npm run packages
 
 ## Developing
 
-There's just few things that you need to know to start developing on docz
-
 ### Project structure
+
+Docz is a [Monorepo](https://en.wikipedia.org/wiki/Monorepo) managed by [Lerna](https://github.com/lerna/lerna).
+
+
+### Packages
 
 There's a lot of [packages](https://github.com/pedronauck/docz/tree/master/packages) that are necessary to run docz, but basically has just two that you need to know more about:
 
