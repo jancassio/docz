@@ -66,12 +66,16 @@ $ npm run packages
 
 ### Project structure
 
-Docz is a [Monorepo](https://en.wikipedia.org/wiki/Monorepo) managed by [Lerna](https://github.com/lerna/lerna).
+docz follows the [Monorepo](https://en.wikipedia.org/wiki/Monorepo) design managed by [Lerna](https://github.com/lerna/lerna).
 
+The are just two directories to care about if you would like to contribute:
 
-### Packages
+- **Packages**: Host all docz source code.
+- **Examples**: Host all available usage examples.
 
-There's a lot of [packages](https://github.com/pedronauck/docz/tree/master/packages) that are necessary to run docz, but basically has just two that you need to know more about:
+#### Packages
+
+There are lots of [packages](https://github.com/pedronauck/docz/tree/master/packages) that are necessary to run docz, the most important packages that are important to care about:
 
 #### **[docz-core](https://github.com/pedronauck/docz/tree/master/packages/docz)**
 - This is the core of docz. All build algorithms, server process and parses belongs to here.
@@ -87,9 +91,12 @@ There's a lot of [packages](https://github.com/pedronauck/docz/tree/master/packa
 
 ### Watching projects
 
-To speed up your develop process:
+To speed up your developing we recommended to run packages in a separated terminal process.
+
 - Split your terminal and open each package directory in a separate window.
-- Run `yarn dev` in each window to run the watch tasks. For example, in this [examples](https://github.com/pedronauck/docz/tree/master/examples) directory.
+- Run `yarn dev` (or `npm run dev`) in each slice (or window) to watch tasks.
+
+For example, to run some example from [examples](https://github.com/pedronauck/docz/tree/master/examples) directory.
 
 ![](https://cdn-std.dprcdn.net/files/acc_649651/MdH4FL)
 
@@ -103,13 +110,16 @@ If there are some plugin that you want to create, please contact me before to ta
 
 Commit messages should follow the [commit message convention](https://conventionalcommits.org/) so, changelogs could be generated automatically by that. Commit messages are validated automatically upon commit. If you aren't familiar with the commit message convention, you can use yarn commit (or `npm run commit`) instead of git commit, which provides an interactive CLI for generating proper commit messages.
 
+### Pull Requests
 
-### General guidelines
+- All pull requests have to be send against `dev` branch.
 
 - The **master branch** is a snapshot of the latest stable release. All development should be done in dedicated branch. **Do not submit PRs against the master branch**.
 
-- Checkout a topic branch from the relevant branch, e.g. `dev`, and merge back against that branch.
+- If you are checking out from a feature or a topic different of `master` or `dev`, you have to merge back and push against the same feature.
+
 - Work in the **src** folder of respective package and **DO NOT** checkin dist in the commits.
+
 - It's OK - and a very nice thing - to have multiple small commits as you work on the PR - we will let GitHub automatically squash it before merging.
 
 ### If adding a new feature:
