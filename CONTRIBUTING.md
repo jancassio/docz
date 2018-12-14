@@ -96,6 +96,25 @@ In the above example you're watching `docz`, `docz-core` and `docz-theme-default
 
 If there are some plugin that you want to create, please contact me before to talk about the possibility to make this plugin official!
 
+## Commit messages
+
+Commit messages should follow the [commit message convention](https://conventionalcommits.org/) so, changelogs could be generated automatically by that. Commit messages are validated automatically upon commit. If you aren't familiar with the commit message convention, you can use yarn commit (or `npm run commit`) instead of git commit, which provides an interactive CLI for generating proper commit messages.
+
+
+### General guidelines
+
+- The **master branch** is a snapshot of the latest stable release. All development should be done in dedicated branch. **Do not submit PRs against the master branch**.
+
+- Checkout a topic branch from the relevant branch, e.g. `dev`, and merge back against that branch.
+- Work in the **src** folder of respective package and **DO NOT** checkin dist in the commits.
+- It's OK - and a very nice thing - to have multiple small commits as you work on the PR - we will let GitHub automatically squash it before merging.
+
+### If adding a new feature:
+
+- Make sure that [all examples](https://github.com/pedronauck/docz/tree/master/examples) are running as expected
+- Provide convincing reason to add this feature. Ideally you should open a suggestion issue first and have it greenlighted before working on it.
+
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
