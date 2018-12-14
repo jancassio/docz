@@ -24,29 +24,42 @@ Then, check out the project:
 
 ### Pre-requisites
 
-- *Node:* `^9.0.0`
-- *Yarn:* `^1.7.0`
+- *Node:* `^9.0.0` or higher
+- *Npm:* `6.0.0` or higher
+- *Yarn: (optional)* `^1.7.0` or higher
 
 ### Install
 
-Check out the code and go into the docz directory:
+Go to `docz` directory after checking out the repository:
 
 ```bash
-git clone https://github.com/pedronauck/docz.git
-cd docz
+$ cd docz
 ```
 
-Then run yarn install and bootstrap all packages:
+Then run the following commands to bootstrap all dependencies:
 
+With `yarn`:
 ```bash
 $ yarn install
 $ yarn bs
 ```
 
-After that, just run `packages` script to format, build and lint all packages:
+With `npm`:
+```bash
+$ npm install
+$ npm run bs
+```
 
+Finally, run the `packages` script to format, build and lint all packages:
+
+With `yarn`:
 ```bash
 $ yarn packages
+```
+
+With `npm`:
+```bash
+$ npm run packages
 ```
 
 ## Developing
